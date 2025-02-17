@@ -1,0 +1,56 @@
+.base-back {
+    margin: 4px;
+    width: 200px;
+    height: 200px;
+    border-width: 4px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.base-button {
+    border-width: 0;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.neo-back {
+    background: #e8e8e8;
+}
+
+.glass-back {
+    background-image: url("https://img.freepik.com/free-vector/gradient-pink-green-background_52683-110638.jpg?t=st=1739564201~exp=1739567801~hmac=3fb1dd3dbefd54c5d2f112dd0e5ed40c19c20eaf2d9fb52102bb8dc985200662&w=1060");
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s;
+}
+
+.glass:hover {
+    background: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s;
+}
+
+.neo {
+    color: #090909;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.neo:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.changeable-back {
+    background: hotpink;
+    transition: background-color 0.5s ease-in-out;
+}
+
